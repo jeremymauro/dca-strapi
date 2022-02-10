@@ -4,23 +4,25 @@
   "info": {
     "singularName": "photo",
     "pluralName": "photos",
-    "displayName": "Photos"
+    "displayName": "Photos",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Image": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
-    "Title": {
+    "title": {
       "type": "string"
     },
     "date": {
